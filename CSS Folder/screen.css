@@ -282,6 +282,7 @@ form {
   max-width: 480px;
   }
   #header {
+	font-size: 150%;
     font-weight: bold;
     text-align: center;
   }
@@ -295,6 +296,7 @@ form {
 
 @media screen and (min-width: 750px) {
   body {
+    font-size: 150%;
   }
   form {
 	max-width: 768px;
