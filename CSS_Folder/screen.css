@@ -270,6 +270,9 @@ form {
   border-radius: 8px;
   background-color: #D3D3D3;
 }
+label{
+	text-align:center;
+}
 
 
 
