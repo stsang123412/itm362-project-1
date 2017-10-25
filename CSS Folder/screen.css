@@ -262,4 +262,49 @@ legend{
 	text-align:center;
 	font-size:1.5em;
 }
+form {
+  max-width: 375px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  background-color: #D3D3D3;
+}
 
+
+
+/* Media Queries */ 
+@media screen and (min-width: 480px) {
+  body {
+	font-size: 115%;
+  }
+  form {
+  max-width: 480px;
+  }
+  #header {
+    font-weight: bold;
+    text-align: center;
+  }
+  label {
+	display: block;
+  }
+  #submit {
+	font-size: 120%;
+  }
+}  
+
+@media screen and (min-width: 750px) {
+  body {
+  }
+  form {
+	max-width: 768px;
+  }
+  #header {
+    font-size: 260%;
+    font-weight: bold;
+    text-align: center;
+  }
+  #submit {
+	font-size: 135%;
+  }
+}
